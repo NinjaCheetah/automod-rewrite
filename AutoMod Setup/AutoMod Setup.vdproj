@@ -52,12 +52,6 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_8761ED2FF61AB374781E651E03F786A3"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_30F31A2CAB264EF79E61220C5C30DD7C"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -79,6 +73,12 @@
         "OwnerKey" = "8:_7155D627F7AE2FD3037A17C155E66221"
         "MsmSig" = "8:_UNDEFINED"
         }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_8761ED2FF61AB374781E651E03F786A3"
+        "MsmSig" = "8:_UNDEFINED"
+        }
     }
     "Configurations"
     {
@@ -97,6 +97,14 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
         "Release"
         {
@@ -113,6 +121,14 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
     }
     "Deployable"
@@ -342,16 +358,16 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:AutoMod"
-        "ProductCode" = "8:{93D96E47-0CCB-46B6-9E1D-F237663E3EDC}"
-        "PackageCode" = "8:{EFED0503-3D9E-4E7C-B031-81C5E638FB4F}"
+        "ProductCode" = "8:{40568706-A72C-48EB-802E-0764A661E880}"
+        "PackageCode" = "8:{5EF51C1E-39B9-40CD-B142-FCC004A8E959}"
         "UpgradeCode" = "8:{D88B02F9-EEC4-4F24-A4F5-171AAA6FD16D}"
         "AspNetVersion" = "8:2.0.50727.0"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:FALSE"
-        "ProductVersion" = "8:1.0.0"
-        "Manufacturer" = "8:NinjaCheetah"
+        "ProductVersion" = "8:1.1.0"
+        "Manufacturer" = "8:NCX"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
         "Title" = "8:AutoMod Setup"
@@ -878,7 +894,7 @@
         {
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_30F31A2CAB264EF79E61220C5C30DD7C"
             {
-            "SourcePath" = "8:..\\AutoMod\\obj\\Release\\AutoMod.exe"
+            "SourcePath" = "8:"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_5066BA8E062A48BAA8A3D8FA9173D960"

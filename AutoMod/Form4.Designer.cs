@@ -52,7 +52,7 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(328, 90);
             this.label2.TabIndex = 1;
-            this.label2.Text = "v1.0.0\r\nDesigned and Written by NinjaCheetah\r\nWritten in C# using Visual Studio 2" +
+            this.label2.Text = "v1.1.0\r\nDesigned and Written by NinjaCheetah\r\nWritten in C# using Visual Studio 2" +
     "019\r\nPowered by the .NET Framework 4.7.2";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 

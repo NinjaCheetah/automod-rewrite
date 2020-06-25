@@ -34,5 +34,9 @@ namespace AutoMod
             Form4 f = new Form4();
             f.Visible = true;
         }
+        protected override void OnFormClosing(FormClosingEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
