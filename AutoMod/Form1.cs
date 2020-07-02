@@ -15,7 +15,11 @@ namespace AutoMod
         public Form1()
         {
             InitializeComponent();
-            
+            if (Properties.Settings.Default.oprsys == "none")
+            {
+                Form5 f = new Form5();
+                f.Visible = true;
+            }
         }
 
         private void button1_Click(object sender, EventArgs e)
