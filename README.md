@@ -1,5 +1,5 @@
-# The AutoMod project has been :axe:'d and the repo has been archived. You can no longer use AutoMod because the repo used for downloading mods is now gone.
-
+# The AutoMod project has been :axe:'d and the repo has been archived. You can no longer use AutoMod because the repo used for downloading mods is now gone. Read below for more info.
+I killed this project due to possible legal issues, since I was rehosting mods, and also because of issues like it being hard to keep the mods up to date, and just being generally inefficient.
 
 # automod
 This is the code repo for AutoMod, a program for Minecraft: Java Edition that automatically installs modpacks, with minimal user input required. Now in C#.
